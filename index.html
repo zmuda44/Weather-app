@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <!-- add meta description -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+  <div class="body-container">
+    <!-- Header -->
+    <header>
+      <h2>Weather Dashboard</h2>
+    </header>
+
+    <main>
+      <sidebar>
+        <h3>Search for a City:</h3>
+        <div class="search-input">
+          <input type="text" id="search-input">
+          <button id="search-btn">Search</button>
+        </div>
+        <div id="cities-btn-container">
+        
+        </div>
+      </sidebar>
+
+      <section>
+        <div id="current-weather">Current forecast</div>
+        <div id="five-day-cont">
+          <h3>5 day forecast</h3>
+          <div id="five-day"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="assets/js/index.js"></script>
+</body>
+</html>

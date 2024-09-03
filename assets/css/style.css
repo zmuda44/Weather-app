@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-container {
+  margin: 2rem;
+  border: solid black;
+  padding: 2rem;
+}
+
+header {
+  background-color: red;
+  
+  /* linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%); */
+}
+
+main {
+  display: flex;
+  margin-top: 10px;
+}
+
+sidebar {
+  margin-right: 2%;
+  width: 20%;
+}
+
+section {
+  
+  width: 70%;
+}
+
+.search-input {
+  margin-bottom: 10px;
+}
+
+#cities-btn-container button {
+  display: block;
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+#current-weather {
+  background-color: aqua;
+  margin-bottom: 20px;
+}
+
+#current-weather h3 {
+  color: red;
+  margin-bottom: 10px;
+}
+
+#five-day-cont > h3 {
+  margin-bottom: 10px;
+}
+
+#five-day {
+  display: flex;
+}
+
+#five-day .five-day-card {
+  margin: 10px;
+  background-color: red;
+}
+
+
+
