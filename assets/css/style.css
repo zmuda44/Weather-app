@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --lt-blue: rgb(72, 163, 255);
+  --drk-blue: rgb(23, 23, 128);
 }
 
 .body-container {
@@ -10,8 +16,16 @@
   padding: 2rem;
 }
 
-header {
+/* Header */
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--drk-blue);
+  color: white;
+  text-align: center;
+  height: 4rem; 
 }
 
 main {
